@@ -1,4 +1,5 @@
 import random
+
 eszkozok = ["ko", "papir", "ollo"]
 gepi_valasz = eszkozok[random.randint(0, 2)]
 print("### Ko, Papir, Ollo ###")
