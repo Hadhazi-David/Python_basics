@@ -1,7 +1,7 @@
 import random
 eszkozok = ["ko", "papir", "ollo"]
 gepi_valasz = eszkozok[random.randint(0, 2)]
-print("Ko, papir, ollo")
+print("### Ko, Papir, Ollo ###")
 # print(gepi_valasz)
 bevitel = input("Valassz! ko/papir/ollo: ")
 while not bevitel in eszkozok:
